@@ -20,3 +20,10 @@ EasyProblems easyProblems = new EasyProblems();
 //     Console.Write(num);
 // }
 
+//***Reverse Integer***
+// int x = -123;
+// Console.WriteLine(easyProblems.Reverse(x));
+
+//***Search Insert Position***
+int[] nums = { 1, 3, 5, 6 };
+Console.WriteLine(easyProblems.SearchInsert(nums, 2));
