@@ -1,6 +1,6 @@
 ﻿using LeetCode;
 
-Easy easyProblems = new Easy();
+EasyProblems easyProblems = new EasyProblems();
 
 int[] nums = {3,3};
 int[] output = easyProblems.TwoSum(nums, 6);

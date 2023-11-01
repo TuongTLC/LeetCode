@@ -1,6 +1,6 @@
 namespace LeetCode;
 
-public class Easy
+public class EasyProblems
 {
     //Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
     public int[] TwoSum(int[] nums, int target)
