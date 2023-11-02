@@ -1,7 +1,7 @@
 ﻿using LeetCode;
 
 EasyProblems easyProblems = new EasyProblems();
-
+MediumProblems mediumProblems = new MediumProblems();
 //***TwoSum***
 // int[] nums = {3,3};
 // int[] output = easyProblems.TwoSum(nums, 6);
@@ -25,5 +25,17 @@ EasyProblems easyProblems = new EasyProblems();
 // Console.WriteLine(easyProblems.Reverse(x));
 
 //***Search Insert Position***
-int[] nums = { 1, 3, 5, 6 };
-Console.WriteLine(easyProblems.SearchInsert(nums, 2));
+// int[] nums = { 1, 3, 5, 6 };
+// Console.WriteLine(easyProblems.SearchInsert(nums, 2));
+
+//***Sort Colors***
+// int[] nums = {2,0,2,1,1,0};
+// mediumProblems.SortColors(nums);
+// foreach (var n in nums)
+// {
+//     Console.WriteLine(n);
+// }
+
+//***Single Number II***
+int[] nums = { 2,2,3,2 };
+Console.WriteLine(mediumProblems.SingleNumber(nums));
